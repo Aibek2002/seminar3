@@ -1,8 +1,8 @@
-a = int(input())
-b = int(input())
-c = int(input())
+a = int(input("Введите первое число = "))
+b = int(input("Введите второе число = "))
+c = int(input("Введите третье число = "))
 d = 5
-if (a+b==d) or (b+c==d) or (a+c==d):
+if (a and b<d) or (b and c<d) or (c and a<d):
    print('yes')
 else:
    print('no')
