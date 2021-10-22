@@ -7,13 +7,20 @@ try:
 except:
    print("Tek san zhazynyz")
    exit()
-if (a<5) and (b<5) and (c>5):
-   print("yes")
-elif (b<5) and (c<5) and (a>5):
-   print("yes")
-elif (a<5) and (c<5) and (b>5):
-   print("yes")
-else:
-   print("no")
 
-
+def aik(a):
+	if (a<5) and (b<5) and (c>5):
+		print("-yes-")
+	elif (b<5) and (c<5) and (a>5):
+		print("-yes-")
+	elif (a<5) and (c<5) and (b>5):
+		print("-yes-")
+	else:
+		print("-no-")
+def zhauap():
+	print("ОТВЕТ", )
+zhauap()
+aik(a)
+def paka():
+	print("Good bye!")
+paka()
